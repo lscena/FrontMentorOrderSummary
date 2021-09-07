@@ -1,0 +1,122 @@
+/* Created by: */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background: url(./images/pattern-background-desktop.svg) top center no-repeat;
+    /* background-size: cover; */
+    /* background-size: 100% 500px; */
+
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.cardContainer{
+    background-color: white;
+    width: 380px;
+    /* height: 500px; */
+    border-radius: 20px;
+}
+.description{
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+.description p{
+    font-size: 14px;
+    max-width: 75%;
+    margin: 0 auto;    
+    color:hsl(224, 23%, 55%);
+}
+.price{
+    background-color: hsl(225, 100%, 98%);
+    max-width: 75%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price1{
+    flex: 1 0 0;
+}
+.price2{
+    flex: 3 0 0;
+    padding: 0 1rem;
+}
+.price3{
+    flex: 1 0 0;
+    color:#3838e1;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.price3:hover{
+    text-decoration: none;
+    color: #5555e6;
+}
+.price2 .planName{
+    font-size: 16px;
+    font-weight: 700;
+    color:hsl(223, 47%, 23%);
+}
+.price2 .priceValue{
+    font-size: 14px;
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+.cta{
+    width: 100%;
+}
+.cta .btnPayment{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3838e1;
+    padding: 0.8rem 0;
+    width: 83%;
+    color: white;
+    border-radius: 0.6rem;
+    font-size:13px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    cursor: pointer;
+    /* box-shadow: 0 13px 24px #3838e14d; */
+    box-shadow: 0 13px 24px rgba(56, 56, 225, 0.3);
+}
+.cta .btnPayment:hover{
+    background-color: #5555e6;
+    box-shadow: 0 13px 24px rgba(85, 85, 230, 0.3);
+}
+.cta .btnCancel{
+    margin: 1.5rem auto 2.5rem auto;
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cta .btnCancel:hover{
+    color:hsl(223, 47%, 23%);
+}
