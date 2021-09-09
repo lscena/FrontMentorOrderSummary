@@ -21,7 +21,6 @@ Users should be able to:
 
 ### Screenshot
 
-# ![finished challenge screenshot](https://github.com/lscena/FrontMentorOrderSummary/blob/main/screeshot.png?raw=true)
 ![finished challenge screenshot](https://github.com/lscena/FrontendMentorOrderSummary/blob/main/screeshot.png?raw=true)
 
 ### Links
