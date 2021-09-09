@@ -21,12 +21,13 @@ Users should be able to:
 
 ### Screenshot
 
-![finished challenge screenshot](https://github.com/lscena/FrontMentorOrderSummary/blob/main/screeshot.png?raw=true)
+# ![finished challenge screenshot](https://github.com/lscena/FrontMentorOrderSummary/blob/main/screeshot.png?raw=true)
+![finished challenge screenshot](https://github.com/lscena/FrontendMentorOrderSummary/blob/main/screeshot.png?raw=true)
 
 ### Links
 
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-- Live Site URL: [live site URL](https://lscena.github.io/FrontMentorOrderSummary/)
+- Live Site URL: [live site URL](https://lscena.github.io/FrontendMentorOrderSummary/)
 
 ## My process
 
